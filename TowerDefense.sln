@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{75E761CF-81AF-4EA8-9A38-469AD837F463}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{D7F9EF69-3F5D-47DC-82CF-66C83056F8FB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowerDefense", "Intermediate\ProjectFiles\TowerDefense.vcxproj", "{EDDC23CF-734D-481A-8C23-79544C57E44D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{362EED47-E52A-4CCE-9BA3-A8C557EC627F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DebugGame Editor|Windows = DebugGame Editor|Windows
+		DebugGame|Windows = DebugGame|Windows
+		Development Editor|Windows = Development Editor|Windows
+		Development|Windows = Development|Windows
+		Shipping|Windows = Shipping|Windows
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDDC23CF-734D-481A-8C23-79544C57E44D}.DebugGame Editor|Windows.ActiveCfg = DebugGame_Editor|x64
+		{EDDC23CF-734D-481A-8C23-79544C57E44D}.DebugGame Editor|Windows.Build.0 = DebugGame_Editor|x64
+		{EDDC23CF-734D-481A-8C23-79544C57E44D}.DebugGame|Windows.ActiveCfg = DebugGame_Game|x64
+		{EDDC23CF-734D-481A-8C23-79544C57E44D}.DebugGame|Windows.Build.0 = DebugGame_Game|x64
+		{EDDC23CF-734D-481A-8C23-79544C57E44D}.Development Editor|Windows.ActiveCfg = Development_Editor|x64
+		{EDDC23CF-734D-481A-8C23-79544C57E44D}.Development Editor|Windows.Build.0 = Development_Editor|x64
+		{EDDC23CF-734D-481A-8C23-79544C57E44D}.Development|Windows.ActiveCfg = Development_Game|x64
+		{EDDC23CF-734D-481A-8C23-79544C57E44D}.Development|Windows.Build.0 = Development_Game|x64
+		{EDDC23CF-734D-481A-8C23-79544C57E44D}.Shipping|Windows.ActiveCfg = Shipping_Game|Win32
+		{EDDC23CF-734D-481A-8C23-79544C57E44D}.Shipping|Windows.Build.0 = Shipping_Game|Win32
+		{362EED47-E52A-4CCE-9BA3-A8C557EC627F}.DebugGame Editor|Windows.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{362EED47-E52A-4CCE-9BA3-A8C557EC627F}.DebugGame|Windows.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{362EED47-E52A-4CCE-9BA3-A8C557EC627F}.Development Editor|Windows.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{362EED47-E52A-4CCE-9BA3-A8C557EC627F}.Development|Windows.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{362EED47-E52A-4CCE-9BA3-A8C557EC627F}.Shipping|Windows.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDDC23CF-734D-481A-8C23-79544C57E44D} = {D7F9EF69-3F5D-47DC-82CF-66C83056F8FB}
+		{362EED47-E52A-4CCE-9BA3-A8C557EC627F} = {75E761CF-81AF-4EA8-9A38-469AD837F463}
+	EndGlobalSection
+EndGlobal
